@@ -1,0 +1,1026 @@
+2019-7-21 06:23:52 [Thread-38] DEBUG [AnnotationConfigServletWebServerApplicationContext]:987 Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbd8e44, started on Sat Jul 20 16:58:45 CST 2019
+2019-7-21 06:23:53 [Thread-38] INFO [QuartzScheduler]:613 Scheduler scheduler_$_NON_CLUSTERED paused.
+2019-7-21 06:23:53 [Thread-38] INFO [ThreadPoolTaskExecutor]:208 Shutting down ExecutorService 'applicationTaskExecutor'
+2019-7-21 06:23:53 [Thread-38] INFO [SchedulerFactoryBean]:844 Shutting down Quartz Scheduler
+2019-7-21 06:23:53 [Thread-38] INFO [QuartzScheduler]:694 Scheduler scheduler_$_NON_CLUSTERED shutting down.
+2019-7-21 06:23:53 [Thread-38] INFO [QuartzScheduler]:613 Scheduler scheduler_$_NON_CLUSTERED paused.
+2019-7-21 06:23:53 [Thread-38] INFO [QuartzScheduler]:771 Scheduler scheduler_$_NON_CLUSTERED shutdown complete.
+2019-7-21 06:23:53 [Thread-38] INFO [EhCacheManagerFactoryBean]:192 Shutting down EhCache CacheManager
+2019-7-21 06:23:53 [Thread-38] INFO [LocalContainerEntityManagerFactoryBean]:597 Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-7-21 06:23:53 [Thread-38] INFO [DruidDataSource]:1908 {dataSource-1} closed
+2019-7-21 10:01:10 [main] DEBUG [ClasspathLoggingApplicationListener]:53 Application started with classpath: [file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/deploy.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/cldrdata.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/dnsns.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/jaccess.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/jfxrt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/localedata.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/nashorn.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunec.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/zipfs.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/javaws.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfxswt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/management-agent.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/plugin.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/ant-javafx.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/dt.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/javafx-mx.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/jconsole.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/packager.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/sa-jdi.jar, file:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/tools.jar, file:/Users/dachao/Downloads/web-flash-master/flash-api/target/classes/, file:/Users/dachao/Downloads/web-flash-master/flash-core/target/classes/, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.1.RELEASE/spring-boot-starter-web-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.1.RELEASE/spring-boot-starter-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.1.RELEASE/spring-boot-starter-json-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.7/jackson-datatype-jdk8-2.9.7.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.7/jackson-datatype-jsr310-2.9.7.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.7/jackson-module-parameter-names-2.9.7.jar, file:/Users/dachao/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.13.Final/hibernate-validator-6.0.13.Final.jar, file:/Users/dachao/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar, file:/Users/dachao/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-expression/5.1.3.RELEASE/spring-expression-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-mail/2.1.1.RELEASE/spring-boot-starter-mail-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar, file:/Users/dachao/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar, file:/Users/dachao/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.1.RELEASE/spring-boot-starter-data-jpa-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.1.RELEASE/spring-boot-starter-aop-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar, file:/Users/dachao/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, file:/Users/dachao/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar, file:/Users/dachao/.m2/repository/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar, file:/Users/dachao/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar, file:/Users/dachao/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar, file:/Users/dachao/.m2/repository/net/bytebuddy/byte-buddy/1.9.5/byte-buddy-1.9.5.jar, file:/Users/dachao/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/Users/dachao/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar, file:/Users/dachao/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar, file:/Users/dachao/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar, file:/Users/dachao/.m2/repository/org/springframework/data/spring-data-jpa/2.1.3.RELEASE/spring-data-jpa-2.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-orm/5.1.3.RELEASE/spring-orm-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-tx/5.1.3.RELEASE/spring-tx-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-aspects/5.1.3.RELEASE/spring-aspects-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-context-support/5.1.3.RELEASE/spring-context-support-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-core/5.1.3.RELEASE/spring-core-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-jcl/5.1.3.RELEASE/spring-jcl-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.1.RELEASE/spring-boot-starter-jdbc-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45.jar, file:/Users/dachao/.m2/repository/com/alibaba/druid-spring-boot-starter/1.1.13/druid-spring-boot-starter-1.1.13.jar, file:/Users/dachao/.m2/repository/com/alibaba/druid/1.1.13/druid-1.1.13.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.1.1.RELEASE/spring-boot-starter-cache-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.jar, file:/Users/dachao/.m2/repository/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.jar, file:/Users/dachao/.m2/repository/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar, file:/Users/dachao/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.1.RELEASE/spring-boot-starter-logging-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, file:/Users/dachao/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar, file:/Users/dachao/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar, file:/Users/dachao/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar, file:/Users/dachao/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar, file:/Users/dachao/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/Users/dachao/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar, file:/Users/dachao/.m2/repository/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar, file:/Users/dachao/.m2/repository/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar, file:/Users/dachao/.m2/repository/org/quartz-scheduler/quartz-jobs/2.2.1/quartz-jobs-2.2.1.jar, file:/Users/dachao/.m2/repository/org/jxls/jxls/2.3.0/jxls-2.3.0.jar, file:/Users/dachao/.m2/repository/org/apache/commons/commons-jexl/2.1.1/commons-jexl-2.1.1.jar, file:/Users/dachao/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, file:/Users/dachao/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar, file:/Users/dachao/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar, file:/Users/dachao/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar, file:/Users/dachao/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, file:/Users/dachao/.m2/repository/org/jxls/jxls-poi/1.2.0/jxls-poi-1.2.0.jar, file:/Users/dachao/.m2/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar, file:/Users/dachao/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar, file:/Users/dachao/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar, file:/Users/dachao/.m2/repository/org/apache/poi/poi-ooxml/4.0.1/poi-ooxml-4.0.1.jar, file:/Users/dachao/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.1/poi-ooxml-schemas-4.0.1.jar, file:/Users/dachao/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.2/xmlbeans-3.0.2.jar, file:/Users/dachao/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar, file:/Users/dachao/.m2/repository/com/github/virtuald/curvesapi/1.05/curvesapi-1.05.jar, file:/Users/dachao/.m2/repository/com/github/qcloudsms/qcloudsms/1.0.6/qcloudsms-1.0.6.jar, file:/Users/dachao/.m2/repository/org/json/json/20170516/json-20170516.jar, file:/Users/dachao/.m2/repository/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar, file:/Users/dachao/.m2/repository/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar, file:/Users/dachao/.m2/repository/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar, file:/Users/dachao/Downloads/web-flash-master/flash-generator/target/classes/, file:/Users/dachao/.m2/repository/org/atteo/evo-inflector/1.0.1/evo-inflector-1.0.1.jar, file:/Users/dachao/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar, file:/Users/dachao/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar, file:/Users/dachao/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar, file:/Users/dachao/.m2/repository/org/nutz/nutz/1.r.60/nutz-1.r.60.jar, file:/Users/dachao/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.1.RELEASE/spring-boot-starter-tomcat-2.1.1.RELEASE.jar, file:/Users/dachao/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, file:/Users/dachao/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar, file:/Users/dachao/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.13/tomcat-embed-el-9.0.13.jar, file:/Users/dachao/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.13/tomcat-embed-websocket-9.0.13.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-swagger2/2.2.2/springfox-swagger2-2.2.2.jar, file:/Users/dachao/.m2/repository/org/mapstruct/mapstruct/1.0.0.CR1/mapstruct-1.0.0.CR1.jar, file:/Users/dachao/.m2/repository/io/swagger/swagger-annotations/1.5.3/swagger-annotations-1.5.3.jar, file:/Users/dachao/.m2/repository/io/swagger/swagger-models/1.5.3/swagger-models-1.5.3.jar, file:/Users/dachao/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-spi/2.2.2/springfox-spi-2.2.2.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-core/2.2.2/springfox-core-2.2.2.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-schema/2.2.2/springfox-schema-2.2.2.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-swagger-common/2.2.2/springfox-swagger-common-2.2.2.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar, file:/Users/dachao/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar, file:/Users/dachao/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar, file:/Users/dachao/.m2/repository/org/aspectj/aspectjrt/1.9.2/aspectjrt-1.9.2.jar, file:/Users/dachao/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar, file:/Users/dachao/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/spring-aop/5.1.3.RELEASE/spring-aop-5.1.3.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/Users/dachao/.m2/repository/org/springframework/hateoas/spring-hateoas/0.25.0.RELEASE/spring-hateoas-0.25.0.RELEASE.jar, file:/Users/dachao/.m2/repository/io/springfox/springfox-swagger-ui/2.2.2/springfox-swagger-ui-2.2.2.jar, file:/Applications/IntelliJ%20IDEA.app/Contents/lib/idea_rt.jar, file:/Users/dachao/Library/Caches/IntelliJIdea2019.1/captureAgent/debugger-agent.jar]
+2019-7-21 10:01:10 [main] INFO [ApiApplication]:50 Starting ApiApplication on chaoMAC.lan with PID 9648 (/Users/dachao/Downloads/web-flash-master/flash-api/target/classes started by dachao in /Users/dachao/Downloads/web-flash-master)
+2019-7-21 10:01:10 [main] DEBUG [ApiApplication]:53 Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-7-21 10:01:10 [main] INFO [ApiApplication]:679 The following profiles are active: dev
+2019-7-21 10:01:10 [main] DEBUG [SpringApplication]:703 Loading source class cn.enilu.flash.api.ApiApplication
+2019-7-21 10:01:11 [main] DEBUG [ConfigFileApplicationListener]:224 Activated activeProfiles dev
+2019-7-21 10:01:11 [main] DEBUG [ConfigFileApplicationListener]:224 Loaded config file 'file:/Users/dachao/Downloads/web-flash-master/flash-api/target/classes/application.properties' (classpath:/application.properties)
+2019-7-21 10:01:11 [main] DEBUG [ConfigFileApplicationListener]:224 Loaded config file 'file:/Users/dachao/Downloads/web-flash-master/flash-api/target/classes/application-dev.properties' (classpath:/application-dev.properties) for profile dev
+2019-7-21 10:01:11 [main] DEBUG [AnnotationConfigServletWebServerApplicationContext]:590 Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16c63f5
+2019-7-21 10:01:13 [main] INFO [RepositoryConfigurationDelegate]:126 Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-7-21 10:01:13 [main] INFO [RepositoryConfigurationDelegate]:182 Finished Spring Data repository scanning in 249ms. Found 20 repository interfaces.
+2019-7-21 10:01:13 [main] INFO [RepositoryConfigurationDelegate]:126 Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-7-21 10:01:13 [main] INFO [RepositoryConfigurationDelegate]:182 Finished Spring Data repository scanning in 63ms. Found 20 repository interfaces.
+2019-7-21 10:01:14 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:330 Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db4f4820] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-7-21 10:01:15 [main] INFO [PostProcessorRegistrationDelegate$BeanPostProcessorChecker]:330 Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5acf9552] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-7-21 10:01:16 [main] DEBUG [TomcatServletWebServerFactory]:82 Code archive: /Users/dachao/.m2/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar
+2019-7-21 10:01:16 [main] DEBUG [TomcatServletWebServerFactory]:126 Code archive: /Users/dachao/.m2/repository/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE.jar
+2019-7-21 10:01:16 [main] DEBUG [TomcatServletWebServerFactory]:151 None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2019-7-21 10:01:16 [main] INFO [TomcatWebServer]:90 Tomcat initialized with port(s): 8082 (http)
+2019-7-21 10:01:16 [main] INFO [Http11NioProtocol]:173 Initializing ProtocolHandler ["http-nio-8082"]
+2019-7-21 10:01:16 [main] INFO [StandardService]:173 Starting service [Tomcat]
+2019-7-21 10:01:16 [main] INFO [StandardEngine]:173 Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-7-21 10:01:16 [main] INFO [AprLifecycleListener]:173 The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/dachao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-7-21 10:01:16 [main] INFO [[/]]:173 Initializing Spring embedded WebApplicationContext
+2019-7-21 10:01:16 [main] INFO [ContextLoader]:296 Root WebApplicationContext: initialization completed in 5591 ms
+2019-7-21 10:01:17 [main] DEBUG [ServletContextInitializerBeans]:267 Mapping filters: filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*]
+2019-7-21 10:01:17 [main] DEBUG [ServletContextInitializerBeans]:267 Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2019-7-21 10:01:17 [main] DEBUG [OrderedRequestContextFilter]:241 Filter 'requestContextFilter' configured for use
+2019-7-21 10:01:17 [main] DEBUG [OrderedHiddenHttpMethodFilter]:241 Filter 'hiddenHttpMethodFilter' configured for use
+2019-7-21 10:01:17 [main] DEBUG [OrderedCharacterEncodingFilter]:241 Filter 'characterEncodingFilter' configured for use
+2019-7-21 10:01:17 [main] DEBUG [OrderedFormContentFilter]:241 Filter 'formContentFilter' configured for use
+2019-7-21 10:01:17 [main] INFO [DruidDataSourceAutoConfigure]:56 Init DruidDataSource
+2019-7-21 10:01:17 [main] INFO [DruidDataSource]:971 {dataSource-1} inited
+2019-7-21 10:01:18 [main] INFO [LogHelper]:31 HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-7-21 10:01:18 [main] INFO [Version]:46 HHH000412: Hibernate Core {5.3.7.Final}
+2019-7-21 10:01:18 [main] INFO [Environment]:213 HHH000206: hibernate.properties not found
+2019-7-21 10:01:19 [main] INFO [Version]:49 HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-7-21 10:01:19 [main] INFO [Dialect]:157 HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-7-21 10:01:21 [main] INFO [LocalContainerEntityManagerFactoryBean]:415 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-7-21 10:01:21 [main] INFO [EhCacheManagerFactoryBean]:134 Initializing EhCache CacheManager
+2019-7-21 10:01:21 [main] WARN [CacheConfiguration]:841 Cache 'SESSION' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'SESSION' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-7-21 10:01:21 [main] WARN [CacheConfiguration]:841 Cache 'APPLICATION' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'APPLICATION' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-7-21 10:01:22 [main] INFO [AutowiredAnnotationBeanPostProcessor]:447 Autowired annotation is not supported on static fields: private static final org.slf4j.Logger cn.enilu.flash.api.controller.FileController.logger
+2019-7-21 10:01:24 [main] INFO [StdSchedulerFactory]:1184 Using default implementation for ThreadExecutor
+2019-7-21 10:01:24 [main] INFO [SchedulerSignalerImpl]:61 Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-7-21 10:01:24 [main] INFO [QuartzScheduler]:240 Quartz Scheduler v.2.2.1 created.
+2019-7-21 10:01:24 [main] INFO [RAMJobStore]:155 RAMJobStore initialized.
+2019-7-21 10:01:24 [main] INFO [QuartzScheduler]:305 Scheduler meta-data: Quartz Scheduler (v2.2.1) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-7-21 10:01:24 [main] INFO [StdSchedulerFactory]:1339 Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2019-7-21 10:01:24 [main] INFO [StdSchedulerFactory]:1343 Quartz scheduler version: 2.2.1
+2019-7-21 10:01:24 [main] INFO [QuartzScheduler]:2311 JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6eff05e7
+2019-7-21 10:01:25 [main] INFO [ThreadPoolTaskExecutor]:171 Initializing ExecutorService 'applicationTaskExecutor'
+2019-7-21 10:01:25 [main] DEBUG [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin]:134 Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+2019-7-21 10:01:26 [main] INFO [SchedulerFactoryBean]:726 Starting Quartz Scheduler now
+2019-7-21 10:01:26 [main] INFO [QuartzScheduler]:575 Scheduler scheduler_$_NON_CLUSTERED started.
+2019-7-21 10:01:26 [main] INFO [DocumentationPluginsBootstrapper]:80 Context refreshed
+2019-7-21 10:01:26 [main] INFO [DocumentationPluginsBootstrapper]:83 Found {0} custom documentation plugin(s)
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:53 Scanning for api listing references
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: info belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.flash.api.controller.AccountController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: login belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.flash.api.controller.AccountController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: logout belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.flash.api.controller.AccountController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method updatePwd was account-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: updatePwd belongs to groups: [[ResourceGroup{groupName='account-controller', position=0, controller=cn.enilu.flash.api.controller.AccountController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='article-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ArticleMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='article-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ArticleMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: get belongs to groups: [[ResourceGroup{groupName='article-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ArticleMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='article-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ArticleMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='banner-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.BannerMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='banner-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.BannerMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='banner-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.BannerMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method export was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: export belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.flash.api.controller.system.CfgController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.flash.api.controller.system.CfgController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.flash.api.controller.system.CfgController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='cfg-controller', position=0, controller=cn.enilu.flash.api.controller.system.CfgController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='channel-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ChannelMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='channel-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ChannelMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='channel-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ChannelMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was contacts-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='contacts-controller', position=0, controller=cn.enilu.flash.api.controller.cms.ContactsController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.flash.api.controller.system.DeptContoller}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.flash.api.controller.system.DeptContoller}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='dept-contoller', position=0, controller=cn.enilu.flash.api.controller.system.DeptContoller}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.flash.api.controller.system.DictController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: add belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.flash.api.controller.system.DictController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: update belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.flash.api.controller.system.DictController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delete belongs to groups: [[ResourceGroup{groupName='dict-controller', position=0, controller=cn.enilu.flash.api.controller.system.DictController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method download was file-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: download belongs to groups: [[ResourceGroup{groupName='file-controller', position=0, controller=cn.enilu.flash.api.controller.FileController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgBase64 was file-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: getImgBase64 belongs to groups: [[ResourceGroup{groupName='file-controller', position=0, controller=cn.enilu.flash.api.controller.FileController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgStream was file-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: getImgStream belongs to groups: [[ResourceGroup{groupName='file-controller', position=0, controller=cn.enilu.flash.api.controller.FileController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was file-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='file-mgr-controller', position=0, controller=cn.enilu.flash.api.controller.cms.FileMgrController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method upload was file-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: upload belongs to groups: [[ResourceGroup{groupName='file-controller', position=0, controller=cn.enilu.flash.api.controller.FileController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='log-controller', position=0, controller=cn.enilu.flash.api.controller.system.LogController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delLog belongs to groups: [[ResourceGroup{groupName='log-controller', position=0, controller=cn.enilu.flash.api.controller.system.LogController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='login-log-controller', position=0, controller=cn.enilu.flash.api.controller.system.LoginLogController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delLog belongs to groups: [[ResourceGroup{groupName='login-log-controller', position=0, controller=cn.enilu.flash.api.controller.system.LoginLogController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.flash.api.controller.system.MenuController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: menuTreeListByRoleId belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.flash.api.controller.system.MenuController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.flash.api.controller.system.MenuController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='menu-controller', position=0, controller=cn.enilu.flash.api.controller.system.MenuController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was message-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='message-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessageController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagesender-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='messagesender-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagesenderController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method queryAll was messagesender-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: queryAll belongs to groups: [[ResourceGroup{groupName='messagesender-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagesenderController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagesender-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='messagesender-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagesenderController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagesender-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='messagesender-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagesenderController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagetemplate-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='messagetemplate-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagetemplateController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagetemplate-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='messagetemplate-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagetemplateController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagetemplate-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='messagetemplate-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessagetemplateController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method clear was message-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: clear belongs to groups: [[ResourceGroup{groupName='message-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessageController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was message-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='message-controller', position=0, controller=cn.enilu.flash.api.controller.message.MessageController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='notice-controller', position=0, controller=cn.enilu.flash.api.controller.system.NoticeController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: get belongs to groups: [[ResourceGroup{groupName='article-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.ArticleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was case-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: index belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.CaseController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was contact-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='contact-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.ContactController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was news-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='news-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.NewsController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-product-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: index belongs to groups: [[ResourceGroup{groupName='offcial-site-product-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.OffcialSiteProductController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was solution-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: index belongs to groups: [[ResourceGroup{groupName='solution-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.SolutionController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: index belongs to groups: [[ResourceGroup{groupName='offcial-site-controller', position=0, controller=cn.enilu.flash.api.controller.front.officialsite.OffcialSiteController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.flash.api.controller.system.RoleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method roleTreeListByIdUser was role-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: roleTreeListByIdUser belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.flash.api.controller.system.RoleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: setAuthority belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.flash.api.controller.system.RoleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.flash.api.controller.system.RoleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='role-controller', position=0, controller=cn.enilu.flash.api.controller.system.RoleController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: disable belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: enable belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: logList belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: add belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: delete belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=cn.enilu.flash.api.controller.system.TaskController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.flash.api.controller.system.UserController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setRole was user-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: setRole belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.flash.api.controller.system.UserController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: list belongs to groups: [[ResourceGroup{groupName='user-info-controller', position=0, controller=cn.enilu.flash.api.controller.system.UserInfoController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: remove belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.flash.api.controller.system.UserController}]] 
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:72 Request mapping: save belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=cn.enilu.flash.api.controller.system.UserController}]] 
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/article-mgr-controller Description: article-mgr-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/article-controller Description: article-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/messagetemplate-controller Description: messagetemplate-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/cfg-controller Description: cfg-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/file-mgr-controller Description: file-mgr-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/contact-controller Description: contact-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/notice-controller Description: notice-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/offcial-site-product-controller Description: offcial-site-product-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/contacts-controller Description: contacts-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/login-log-controller Description: login-log-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/messagesender-controller Description: messagesender-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/task-controller Description: task-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/menu-controller Description: menu-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/news-controller Description: news-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/offcial-site-controller Description: offcial-site-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/role-controller Description: role-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/channel-mgr-controller Description: channel-mgr-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/dict-controller Description: dict-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/user-info-controller Description: user-info-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/banner-mgr-controller Description: banner-mgr-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/file-controller Description: file-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/dept-contoller Description: dept-contoller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/log-controller Description: log-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/message-controller Description: message-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/solution-controller Description: solution-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/case-controller Description: case-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ApiListingReferenceScanner]:84 Created resource listing Path: /default/account-controller Description: account-controller Position: 0
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /account/info.cn.enilu.flash.api.controller.AccountController.info.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /account/info.cn.enilu.flash.api.controller.AccountController.info.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method info was account-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /account/login.cn.enilu.flash.api.controller.AccountController.login.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /account/login.cn.enilu.flash.api.controller.AccountController.login.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method login was account-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /account/logout.cn.enilu.flash.api.controller.AccountController.logout.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /account/logout.cn.enilu.flash.api.controller.AccountController.logout.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logout was account-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /account/updatePwd.cn.enilu.flash.api.controller.AccountController.updatePwd.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /account/updatePwd.cn.enilu.flash.api.controller.AccountController.updatePwd.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method updatePwd was account-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method updatePwd was account-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/article.cn.enilu.flash.api.controller.front.officialsite.ArticleController.get.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/article.cn.enilu.flash.api.controller.front.officialsite.ArticleController.get.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.get.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.get.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method get was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: getUsingGET_1
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /article/list.cn.enilu.flash.api.controller.cms.ArticleMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /article/list.cn.enilu.flash.api.controller.cms.ArticleMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /article.cn.enilu.flash.api.controller.cms.ArticleMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was article-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /banner/list.cn.enilu.flash.api.controller.cms.BannerMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /banner/list.cn.enilu.flash.api.controller.cms.BannerMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_1
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /banner.cn.enilu.flash.api.controller.cms.BannerMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /banner.cn.enilu.flash.api.controller.cms.BannerMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_1
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /banner.cn.enilu.flash.api.controller.cms.BannerMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /banner.cn.enilu.flash.api.controller.cms.BannerMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was banner-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_1
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/case.cn.enilu.flash.api.controller.front.officialsite.CaseController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/case.cn.enilu.flash.api.controller.front.officialsite.CaseController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was case-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was case-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg/export.cn.enilu.flash.api.controller.system.CfgController.export.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg/export.cn.enilu.flash.api.controller.system.CfgController.export.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method export was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method export was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg/list.cn.enilu.flash.api.controller.system.CfgController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg/list.cn.enilu.flash.api.controller.system.CfgController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was cfg-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_2
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg.cn.enilu.flash.api.controller.system.CfgController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg.cn.enilu.flash.api.controller.system.CfgController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was cfg-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_2
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /cfg.cn.enilu.flash.api.controller.system.CfgController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /cfg.cn.enilu.flash.api.controller.system.CfgController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was cfg-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_2
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /channel/list.cn.enilu.flash.api.controller.cms.ChannelMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /channel/list.cn.enilu.flash.api.controller.cms.ChannelMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_3
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /channel.cn.enilu.flash.api.controller.cms.ChannelMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /channel.cn.enilu.flash.api.controller.cms.ChannelMgrController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_3
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /channel.cn.enilu.flash.api.controller.cms.ChannelMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /channel.cn.enilu.flash.api.controller.cms.ChannelMgrController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was channel-mgr-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_3
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/contact.cn.enilu.flash.api.controller.front.officialsite.ContactController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/contact.cn.enilu.flash.api.controller.front.officialsite.ContactController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was contact-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was contact-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_4
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /contacts/list.cn.enilu.flash.api.controller.cms.ContactsController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /contacts/list.cn.enilu.flash.api.controller.cms.ContactsController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was contacts-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was contacts-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_4
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept/list.cn.enilu.flash.api.controller.system.DeptContoller.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept/list.cn.enilu.flash.api.controller.system.DeptContoller.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dept-contoller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_5
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept.cn.enilu.flash.api.controller.system.DeptContoller.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept.cn.enilu.flash.api.controller.system.DeptContoller.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was dept-contoller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_4
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dept.cn.enilu.flash.api.controller.system.DeptContoller.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dept.cn.enilu.flash.api.controller.system.DeptContoller.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was dept-contoller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_5
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.flash.api.controller.system.DictController.add.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.flash.api.controller.system.DictController.add.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was dict-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.flash.api.controller.system.DictController.delete.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.flash.api.controller.system.DictController.delete.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was dict-controller
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict/list.cn.enilu.flash.api.controller.system.DictController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict/list.cn.enilu.flash.api.controller.system.DictController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was dict-controller
+2019-7-21 10:01:26 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_6
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:26 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /dict.cn.enilu.flash.api.controller.system.DictController.update.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /dict.cn.enilu.flash.api.controller.system.DictController.update.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:26 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method update was dict-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /file/download.cn.enilu.flash.api.controller.FileController.download.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /file/download.cn.enilu.flash.api.controller.FileController.download.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method download was file-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method download was file-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /file/getImgBase64.cn.enilu.flash.api.controller.FileController.getImgBase64.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /file/getImgBase64.cn.enilu.flash.api.controller.FileController.getImgBase64.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgBase64 was file-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgBase64 was file-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /file/getImgStream.cn.enilu.flash.api.controller.FileController.getImgStream.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /file/getImgStream.cn.enilu.flash.api.controller.FileController.getImgStream.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgStream was file-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method getImgStream was file-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key org.springframework.web.multipart.MultipartFile(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: org.springframework.core.io.Resource(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key org.springframework.core.io.Resource(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URL(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URL(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URLStreamHandler(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URLStreamHandler(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.io.File(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.io.File(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URI(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URI(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: org.springframework.core.io.Resource(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key org.springframework.core.io.Resource(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URL(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URL(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URLStreamHandler(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URLStreamHandler(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.io.File(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.io.File(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.net.URI(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.net.URI(false)
+2019-7-21 10:01:27 [main] INFO [ModelPropertiesKeyGenerator]:48 Cache key generated: java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache modelProperties with key java.io.InputStream(false)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /file.cn.enilu.flash.api.controller.FileController.upload.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /file.cn.enilu.flash.api.controller.FileController.upload.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method upload was file-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method upload was file-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /fileMgr/list.cn.enilu.flash.api.controller.cms.FileMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /fileMgr/list.cn.enilu.flash.api.controller.cms.FileMgrController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was file-mgr-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was file-mgr-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_7
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /log.cn.enilu.flash.api.controller.system.LogController.delLog.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /log.cn.enilu.flash.api.controller.system.LogController.delLog.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was log-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /log/list.cn.enilu.flash.api.controller.system.LogController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /log/list.cn.enilu.flash.api.controller.system.LogController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_8
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was log-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /loginLog.cn.enilu.flash.api.controller.system.LoginLogController.delLog.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /loginLog.cn.enilu.flash.api.controller.system.LoginLogController.delLog.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delLog was login-log-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: delLogUsingDELETE_1
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /loginLog/list.cn.enilu.flash.api.controller.system.LoginLogController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /loginLog/list.cn.enilu.flash.api.controller.system.LoginLogController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was login-log-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_9
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu/list.cn.enilu.flash.api.controller.system.MenuController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu/list.cn.enilu.flash.api.controller.system.MenuController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was menu-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_10
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu/menuTreeListByRoleId.cn.enilu.flash.api.controller.system.MenuController.menuTreeListByRoleId.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu/menuTreeListByRoleId.cn.enilu.flash.api.controller.system.MenuController.menuTreeListByRoleId.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method menuTreeListByRoleId was menu-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu.cn.enilu.flash.api.controller.system.MenuController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu.cn.enilu.flash.api.controller.system.MenuController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was menu-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_5
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /menu.cn.enilu.flash.api.controller.system.MenuController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /menu.cn.enilu.flash.api.controller.system.MenuController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was menu-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_6
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message.cn.enilu.flash.api.controller.message.MessageController.clear.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message.cn.enilu.flash.api.controller.message.MessageController.clear.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method clear was message-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method clear was message-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/list.cn.enilu.flash.api.controller.message.MessageController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/list.cn.enilu.flash.api.controller.message.MessageController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was message-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was message-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_11
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message.cn.enilu.flash.api.controller.message.MessageController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message.cn.enilu.flash.api.controller.message.MessageController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was message-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was message-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_7
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/sender/list.cn.enilu.flash.api.controller.message.MessagesenderController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/sender/list.cn.enilu.flash.api.controller.message.MessagesenderController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_12
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/sender/queryAll.cn.enilu.flash.api.controller.message.MessagesenderController.queryAll.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/sender/queryAll.cn.enilu.flash.api.controller.message.MessagesenderController.queryAll.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method queryAll was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method queryAll was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/sender.cn.enilu.flash.api.controller.message.MessagesenderController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/sender.cn.enilu.flash.api.controller.message.MessagesenderController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_6
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/sender.cn.enilu.flash.api.controller.message.MessagesenderController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/sender.cn.enilu.flash.api.controller.message.MessagesenderController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagesender-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_8
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/template/list.cn.enilu.flash.api.controller.message.MessagetemplateController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/template/list.cn.enilu.flash.api.controller.message.MessagetemplateController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_13
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/template.cn.enilu.flash.api.controller.message.MessagetemplateController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/template.cn.enilu.flash.api.controller.message.MessagetemplateController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_7
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /message/template.cn.enilu.flash.api.controller.message.MessagetemplateController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /message/template.cn.enilu.flash.api.controller.message.MessagetemplateController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was messagetemplate-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_9
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/news.cn.enilu.flash.api.controller.front.officialsite.NewsController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/news.cn.enilu.flash.api.controller.front.officialsite.NewsController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was news-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was news-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_14
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /notice/list.cn.enilu.flash.api.controller.system.NoticeController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /notice/list.cn.enilu.flash.api.controller.system.NoticeController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_15
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingHEAD_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPOST_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPUT_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPATCH_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingDELETE_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingOPTIONS_1
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was notice-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingTRACE_1
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite.cn.enilu.flash.api.controller.front.officialsite.OffcialSiteController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite.cn.enilu.flash.api.controller.front.officialsite.OffcialSiteController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: indexUsingGET_1
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/product.cn.enilu.flash.api.controller.front.officialsite.OffcialSiteProductController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/product.cn.enilu.flash.api.controller.front.officialsite.OffcialSiteProductController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-product-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was offcial-site-product-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: indexUsingGET_2
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role/list.cn.enilu.flash.api.controller.system.RoleController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role/list.cn.enilu.flash.api.controller.system.RoleController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was role-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_16
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role.cn.enilu.flash.api.controller.system.RoleController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role.cn.enilu.flash.api.controller.system.RoleController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was role-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_8
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role/roleTreeListByIdUser.cn.enilu.flash.api.controller.system.RoleController.roleTreeListByIdUser.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role/roleTreeListByIdUser.cn.enilu.flash.api.controller.system.RoleController.roleTreeListByIdUser.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method roleTreeListByIdUser was role-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method roleTreeListByIdUser was role-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role.cn.enilu.flash.api.controller.system.RoleController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role.cn.enilu.flash.api.controller.system.RoleController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was role-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_10
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /role/savePermisson.cn.enilu.flash.api.controller.system.RoleController.setAuthority.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /role/savePermisson.cn.enilu.flash.api.controller.system.RoleController.setAuthority.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setAuthority was role-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /offcialSite/solution.cn.enilu.flash.api.controller.front.officialsite.SolutionController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /offcialSite/solution.cn.enilu.flash.api.controller.front.officialsite.SolutionController.index.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was solution-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method index was solution-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: indexUsingGET_3
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task.cn.enilu.flash.api.controller.system.TaskController.add.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task.cn.enilu.flash.api.controller.system.TaskController.add.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method add was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: addUsingPOST_1
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task.cn.enilu.flash.api.controller.system.TaskController.delete.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task.cn.enilu.flash.api.controller.system.TaskController.delete.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method delete was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: deleteUsingDELETE_1
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/disable.cn.enilu.flash.api.controller.system.TaskController.disable.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/disable.cn.enilu.flash.api.controller.system.TaskController.disable.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method disable was task-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/enable.cn.enilu.flash.api.controller.system.TaskController.enable.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/enable.cn.enilu.flash.api.controller.system.TaskController.enable.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method enable was task-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/list.cn.enilu.flash.api.controller.system.TaskController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/list.cn.enilu.flash.api.controller.system.TaskController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_17
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingHEAD_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPOST_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPUT_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPATCH_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingDELETE_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingOPTIONS_2
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was task-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingTRACE_2
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /task/logList.cn.enilu.flash.api.controller.system.TaskController.logList.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /task/logList.cn.enilu.flash.api.controller.system.TaskController.logList.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method logList was task-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/list.cn.enilu.flash.api.controller.system.UserController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/list.cn.enilu.flash.api.controller.system.UserController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_18
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user.cn.enilu.flash.api.controller.system.UserController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user.cn.enilu.flash.api.controller.system.UserController.remove.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method remove was user-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: removeUsingDELETE_9
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user.cn.enilu.flash.api.controller.system.UserController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user.cn.enilu.flash.api.controller.system.UserController.save.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method save was user-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: saveUsingPOST_11
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /user/setRole.cn.enilu.flash.api.controller.system.UserController.setRole.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /user/setRole.cn.enilu.flash.api.controller.system.UserController.setRole.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setRole was user-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method setRole was user-controller
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache models with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [ModelContextKeyGenerator]:46 Cache Key Generated: java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:79 Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-7-21 10:01:27 [main] INFO [OperationsKeyGenerator]:51 Cache key generated: /userInfo/list.cn.enilu.flash.api.controller.system.UserInfoController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [CachingAspect]:68 Caching aspect applied for cache operations with key /userInfo/list.cn.enilu.flash.api.controller.system.UserInfoController.list.DefaultGenericTypeNamingStrategy
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingGET_19
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingHEAD_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPOST_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPUT_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingPATCH_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingDELETE_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingOPTIONS_3
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [ClassOrApiAnnotationResourceGrouping]:100 Group for method list was user-info-controller
+2019-7-21 10:01:27 [main] INFO [CachingOperationNameGenerator]:40 Generating unique operation named: listUsingTRACE_3
+2019-7-21 10:01:27 [main] INFO [Http11NioProtocol]:173 Starting ProtocolHandler ["http-nio-8082"]
+2019-7-21 10:01:27 [main] INFO [NioSelectorPool]:173 Using a shared selector for servlet write/read
+2019-7-21 10:01:27 [main] INFO [TomcatWebServer]:204 Tomcat started on port(s): 8082 (http) with context path ''
+2019-7-21 10:01:27 [main] INFO [ApiApplication]:59 Started ApiApplication in 18.351 seconds (JVM running for 20.635)
+2019-7-21 10:01:27 [main] INFO [CacheListener]:34 .....................load cache........................
+2019-7-21 10:01:27 [Thread-46] INFO [ConfigCacheImpl]:68 reset config cache
+2019-7-21 10:01:27 [Thread-46] INFO [QueryTranslatorFactoryInitiator]:47 HHH000397: Using ASTQueryTranslatorFactory
+2019-7-21 10:04:11 [http-nio-8082-exec-1] INFO [[/]]:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-7-21 10:04:11 [http-nio-8082-exec-1] INFO [DispatcherServlet]:524 Initializing Servlet 'dispatcherServlet'
+2019-7-21 10:04:11 [http-nio-8082-exec-1] INFO [DispatcherServlet]:546 Completed initialization in 42 ms
+2019-7-21 10:04:11 [http-nio-8082-exec-1] INFO [AccountController]:64 用户登录:admin,密码:111111
+2019-7-21 10:04:20 [http-nio-8082-exec-2] INFO [AccountController]:64 用户登录:admin,密码:admin
+2019-7-21 10:04:20 [http-nio-8082-exec-2] INFO [AccountController]:78 token:d15750ae-8b1b-40ce-b0cd-14df2ca45e67
+2019-7-21 10:04:41 [http-nio-8082-exec-5] INFO [AccountController]:64 用户登录:admin,密码:admin
+2019-7-21 10:04:41 [http-nio-8082-exec-5] INFO [AccountController]:78 token:e6f80d9e-b214-479a-9444-ddef31ee9a3e
+2019-7-21 10:13:16 [http-nio-8082-exec-5] INFO [AccountController]:64 用户登录:fencai,密码:fencai
+2019-7-21 10:13:16 [http-nio-8082-exec-5] INFO [AccountController]:78 token:9237b7e8-9d66-4975-a70c-5cb9e3920f59
+2019-7-21 10:13:37 [http-nio-8082-exec-10] INFO [AccountController]:64 用户登录:admin,密码:111111
+2019-7-21 10:13:42 [http-nio-8082-exec-9] INFO [AccountController]:64 用户登录:admin,密码:admin
+2019-7-21 10:13:42 [http-nio-8082-exec-9] INFO [AccountController]:78 token:d4207f70-d6d7-45de-beae-69efb0bb6e20
